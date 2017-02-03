@@ -1,0 +1,101 @@
+======================= Start Lecture 1 ========================================
+=> Python- Interpreted Langauge
+
+=> Top-Bottom
+
+=> freely mix function and definition
+
+=> Define function before use
+
+=> Legal operations in a expression depend upon type of value.
+
+=> int - integers, float - fractional part
+
+=> predefined size for each data type represented in the form of binary
+
+=> 0.602 * 10^24 <- exponent
+     ^
+     |
+  mantissa
+
+=> Normal operators = +,-,*,/
+
+=> Division in python2 gives integer but division in python3 gives float
+
+=> exponent **
+
+=> names don't have inherent type
+
+=> you can change the type of the name as the program evolves
+
+=> Do avoid changing types of names
+
+=> use type() function to check name's type 
+
+=> type -> Bool -> True or False
+
+=> logical operator: not, and, or
+
+========================== End Lecture 1 =======================================
+
+========================== Start of Lecture 2 ==================================
+=> String is a sequence of characters.
+
+=> representation str()
+
+=> enclose string with single, double, triple(multi-line)
+
+=> no distinction b/w single character and sequence of characters
+
+=> concatenation +
+
+=> Backward reading use negative values starting from -1
+
+=> use len() to find length of string
+
+=> slice is segment of a string
+
+=> s[i:j] = from s[i] to s[j-1]
+
+=> s[:j] starts from 0
+
+=> s[j:] ends at s[len(s)-1]
+
+=>  gives invalid value if value give in decreasing order
+
+=> exceeding array limits will not give error but will give the complete string
+
+=> strings are immutable
+
+================================= End of Lecture2 ==============================
+
+================================= Start of Lecture3 ============================
+
+=> List - sequence of values
+
+=> Types need not be uniform
+
+=> Slicing and extraction of value same as string
+
+=> on extraction of value you get a value but on slicing you get a list the same thing is indistinguishable in string.
+
+=> nested list - list contiaining lists
+
+=> lists are mutable
+
+=> for immutable values  during assignment you get a fresh copy of a value
+
+=> but mutable values during doesnt create a fresh copy
+
+=> to make copy of a list we can use slicing or do something like list[:]
+
+=> if list are assigned without slicing you will get True condition as both are pointing towards the same thing but it may happen for the other case
+
+=> to concatenate string use +
+
+=> with concatenation you get a new list
+
+================================ End of Lecture3 ==================================
+================================ Start of Lecture 4 ===============================
+
+
