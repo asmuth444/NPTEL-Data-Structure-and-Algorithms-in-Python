@@ -91,11 +91,25 @@
 
 => if list are assigned without slicing you will get True condition as both are pointing towards the same thing but it may happen for the other case
 
-=> to concatenate string use +
+=> to concatenate lists use +
 
 => with concatenation you get a new list
 
 ================================ End of Lecture3 ==================================
 ================================ Start of Lecture 4 ===============================
 
+=> control flow - determines order in which statements are executed
+
+=> numeric 0 , empty list is false
+
+=> normal branching if-else, multiway branching if-elif-else
+
+=> range(0,n) = [0,1,2.....,n-1]
+
+================================ End of Lecture 4 =================================
+================================ Start of Lecture 5 ===============================
+
+=> while passing arguments implicit assignments happens which means its applicable for both mutable and immutable
+
+================================ End of Lecture 5 =================================
 
