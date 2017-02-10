@@ -1,0 +1,32 @@
+Pattern sequence:
+	range(i,j,k)
+	k is the step value
+	range(2,8,2) = 2,4,6
+Create a sequential list:
+	list(range(0,5))=[0,1,2,3,4,5]
+
+str(78) = "78"
+int("32") = 32
+
+list concatenation leads to a new list.
+
+append value to list: list.append()
+
+extend a list : list.extend(list) = list+list
+
+remove a element from a list  = list.remove()
+
+"x in l" returns true if x is inside l
+l=[2,5,6]
+l[0:2]=[5,2]
+l = [5,2,6]
+
+list operations:
+list.reverse() reverse list
+list.sort() sort l in  descending order
+l.index(x) find the leftmost position of x in l
+l.rindex(x) find rightmost position of x in l
+
+to change python recursion limit:
+	import sys
+	sys.setrecursionlimit(limitvalue)
