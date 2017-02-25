@@ -10,11 +10,17 @@ def descending(seq):
 def alternating(seq):
 	if seq == []:
 		return(True)
+	for i in range(1,len(seq)):
+		if seq[i]==seq[i-1]:
+			return(False)
 	flag = True
 	if seq[0]<seq[1]:
 		flag = False
-	for i in range(1,len(seq)-1,2):
-		if (flag and seq[i]>=seq[i+1])or(not flag and seq[i]<=seq[i+1]):
+	for i in range(0,len(seq)-1,2):
+		if (flag and seq[i]<seq[i+1]) or (not flag and seq[i]>seq[i+1]):
+			return(False)
+	for i in range(1,len(seq),2):
+		if (flag and seq[i]>seq[i-1]) or (not flag and seq[i]<seq[i-1]):
 			return(False)
 	else:
 		return(True)
